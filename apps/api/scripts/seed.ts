@@ -25,7 +25,7 @@ async function seed(bcryptSalt: Salt) {
   const client = new PrismaClient();
 
   const data = {
-    password: "739f7b58fe882e05d060",
+    password: "3a92777c860b92d0c501",
     roles: ["user"],
     username: "admin",
   };
@@ -40,7 +40,7 @@ async function seed(bcryptSalt: Salt) {
   });
 
   const data = {
-    password: "739f7b58fe882e05d060",
+    password: "3a92777c860b92d0c501",
     roles: ["user"],
     username: "admin",
   };
